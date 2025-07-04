@@ -1,0 +1,145 @@
+@import 'tailwindcss';
+
+@keyframes letter-glow {
+  0% {
+    opacity: 0;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
+  }
+  66% {
+    opacity: 1;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+  }
+  77% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0);
+  }
+}
+
+.glow-letter {
+  display: inline-block;
+  opacity: 0;
+  animation: letter-glow 0.7s ease forwards;
+}
+
+/* From Uiverse.io */
+.ui-btn {
+  --btn-animation-duration: 1.2s;
+}
+
+.ui-btn span {
+  position: relative;
+  background: inherit;
+}
+
+.ui-btn span::before {
+  position: absolute;
+  content: '';
+  background: inherit;
+}
+
+.ui-btn:hover span::before {
+  animation: chitchat linear both var(--btn-animation-duration);
+}
+
+@keyframes chitchat {
+  0% {
+    content: '#';
+  }
+  5% {
+    content: '.';
+  }
+  10% {
+    content: '^{';
+  }
+  15% {
+    content: '-!';
+  }
+  20% {
+    content: '#$_';
+  }
+  25% {
+    content: '№:0';
+  }
+  30% {
+    content: '#{+.';}35%{content: '@}-?';
+  }
+  40% {
+    content: '?{4@%';
+  }
+  45% {
+    content: '=.,^!';
+  }
+  50% {
+    content: '?2@%';
+  }
+  55% {
+    content: '\\;1}]';
+  }
+  60% {
+    content: '?{%:%';
+    right: 0;
+  }
+  65% {
+    content: '|{f[4';
+    right: 0;
+  }
+  70% {
+    content: '{4%0%';
+    right: 0;
+  }
+  75% {
+    content: "'1_0<";
+    right: 0;
+  }
+  80% {
+    content: '{0%';
+    right: 0;
+  }
+  85% {
+    content: "]>'";
+    right: 0;
+  }
+  90% {
+    content: '4';
+    right: 0;
+  }
+  95% {
+    content: '2';
+    right: 0;
+  }
+  100% {
+    content: '';
+    right: 0;
+  }
+}
+
+/* Space theme Matrix effect for Hero section */
+.space-title {
+  text-shadow: 0 0 8px #2d3a6e, 0 0 20px #2d3a6e, 0 0 40px #1a1a40;
+  font-family: 'Menlo', 'Roboto Mono', monospace;
+}
+.space-desc {
+  text-shadow: 0 0 6px #2d3a6e, 0 0 12px #1a1a40;
+  font-family: 'Menlo', 'Roboto Mono', monospace;
+}
+.space-accent {
+  color: #00eaff;
+  text-shadow: 0 0 10px #00eaff, 0 0 20px #2d3a6e;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-32px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
