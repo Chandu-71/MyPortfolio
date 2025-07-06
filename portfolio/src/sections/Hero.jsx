@@ -90,7 +90,7 @@ function Hero() {
           {showReal ? fullDesc : descAnim.map((char, i) => <span key={i}>{char}</span>)}
         </p>
         <a
-          href='/Chandu-Resume.pdf'
+          href='https://drive.google.com/file/d/1dFpmO1lO-kismMk4LUsZZjmiBnP_RbtX/view?usp=sharing'
           target='_blank'
           rel='noopener noreferrer'
           className="ui-btn mx-auto rounded-xl border-2 border-[#2A2B3A] font-semibold font-['Menlo','Roboto_Mono',monospace] px-5 py-3 text-white bg-black transition duration-300 hover:shadow-[0_0_10px_0_rgba(0,68,255,0.7)] hover:border-blue-700 hover:text-blue-500"
