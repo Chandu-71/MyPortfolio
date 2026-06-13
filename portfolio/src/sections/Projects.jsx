@@ -2,6 +2,20 @@ import { IconBrandGithub, IconExternalLink } from '@tabler/icons-react';
 
 const projects = [
   {
+    title: 'SolverCell – Social Coding Platform',
+    timeline: 'June 2026',
+    techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'Prisma', 'Socket.IO', 'Tailwind CSS', 'Clerk'],
+    features: [
+      'Built a platform where developers create, solve, discuss, and share coding challenges.',
+      'Implemented real-time messaging, notifications, read receipts, and problem sharing.',
+      'Developed ELO ratings, solve streaks, and weekly/all-time leaderboards.',
+    ],
+    image: '/solvercell_ss.png',
+    video: '/space_cloth.mp4',
+    github: 'https://github.com/Chandu-71/SolverCell',
+    live: 'https://solvercell.vercel.app/',
+  },
+  {
     title: 'JobHaven – Job Portal Web App',
     timeline: 'June 2025',
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Clerk', 'Cloudinary', 'Sentry'],
@@ -27,20 +41,6 @@ const projects = [
     image: '/gesture_control_ss.png',
     video: '/space_cloth.mp4',
     github: 'https://github.com/Chandu-71/GestureControlledRobot',
-    live: null,
-  },
-  {
-    title: 'Book Notes',
-    timeline: 'Jan 2025',
-    techStack: ['Node.js', 'Express.js', 'PostgreSQL', 'Bootstrap', 'Open Library Covers API'],
-    features: [
-      "Web app to track, rate, and take notes on books you've read.",
-      'Used Open Library Covers API to fetch and display book covers.',
-      'Included sorting by title, rating, and recently added with full CRUD.',
-    ],
-    image: '/booknotes_ss.png',
-    video: '/space_cloth.mp4',
-    github: 'https://github.com/Chandu-71/BookNotes',
     live: null,
   },
 ];
