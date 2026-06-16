@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="portfolio\public\logo-2.png" alt="SolverCell Logo" width="120" height="120" style="border-radius: 24px;" />
+<img src="portfolio\public\logo.png" alt="SolverCell Logo" width="120" height="120" style="border-radius: 24px;" />
 
 # CHANDU's UNIVERSE
 

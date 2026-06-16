@@ -47,7 +47,7 @@ const projects = [
 
 function TechBadge({ tech }) {
   return (
-    <span className='bg-blue-700 text-white px-2 py-0.5 rounded-full text-xs font-medium mr-2 mb-2 inline-block hover:bg-blue-600 transition-colors duration-150 cursor-pointer'>
+    <span className='bg-blue-700 text-white px-2 py-0.5 rounded-full text-xs font-medium mr-2 mb-2 inline-block hover:bg-blue-600 transition-colors duration-150'>
       {tech}
     </span>
   );

@@ -8,13 +8,13 @@ const skillsData = [
     ],
   },
   {
-    category: 'Frameworks',
+    category: 'Frameworks & Libraries',
     skills: [
       { name: 'React', logo: '/react_logo.png' },
       { name: 'Node.js', logo: '/nodejs_logo.png' },
       { name: 'Express.js', logo: '/expressjs_logo.png' },
       { name: 'Tailwind CSS', logo: '/tailwind_logo.png' },
-      { name: 'Bootstrap', logo: '/bootstrap_logo.png' },
+      { name: 'Socket IO', logo: '/socketio_logo.png' },
       { name: 'REST APIs', logo: '/restapi_logo.png' },
     ],
   },
@@ -28,10 +28,14 @@ const skillsData = [
   {
     category: 'Developer Tools',
     skills: [
+      { name: 'Prisma ORM', logo: '/prismaorm_logo.png' },
       { name: 'Git', logo: '/git_logo.png' },
       { name: 'GitHub', logo: '/github_logo.png' },
       { name: 'Postman', logo: '/postman_logo.png' },
+      { name: 'pgAdmin', logo: '/pgadmin_logo.png' },
       { name: 'VS Code', logo: '/vscode_logo.png' },
+      { name: 'Vercel', logo: '/vercel_logo.png' },
+      { name: 'Render', logo: '/render_logo.png' },
     ],
   },
 ];
@@ -48,7 +52,7 @@ function Skills() {
               {group.skills.map(skill => (
                 <div
                   key={skill.name}
-                  className='flex items-center bg-[#181824] border border-white/10 rounded-lg px-4 py-2 shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg cursor-pointer min-h-[56px]'
+                  className='flex items-center bg-[#181824] border border-white/10 rounded-lg px-4 py-2 shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg min-h-[56px]'
                 >
                   <div className='flex items-center justify-center w-10 h-10 bg-[#232336] rounded-md mr-3 border border-white/10'>
                     <img src={skill.logo} alt={skill.name + ' logo'} className='w-7 h-7 object-contain' />

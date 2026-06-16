@@ -64,7 +64,10 @@
     content: '№:0';
   }
   30% {
-    content: '#{+.';}35%{content: '@}-?';
+    content: '#{+.';
+  }
+  35% {
+    content: '@}-?';
   }
   40% {
     content: '?{4@%';
@@ -118,16 +121,25 @@
 
 /* Space theme Matrix effect for Hero section */
 .space-title {
-  text-shadow: 0 0 8px #2d3a6e, 0 0 20px #2d3a6e, 0 0 40px #1a1a40;
+  text-shadow:
+    0 0 8px #2d3a6e,
+    0 0 20px #2d3a6e,
+    0 0 40px #1a1a40;
   font-family: 'Menlo', 'Roboto Mono', monospace;
 }
 .space-desc {
-  text-shadow: 0 0 6px #2d3a6e, 0 0 12px #1a1a40;
+  text-shadow:
+    0 0 6px #0f4c81,
+    0 0 12px #082a4d;
+
   font-family: 'Menlo', 'Roboto Mono', monospace;
 }
-.space-accent {
-  color: #00eaff;
-  text-shadow: 0 0 10px #00eaff, 0 0 20px #2d3a6e;
+.space-name {
+  color: #f5fdff;
+  text-shadow:
+    0 0 8px #1e88e5,
+    0 0 18px #1565c0,
+    0 0 36px #0d47a1;
 }
 
 @keyframes float {

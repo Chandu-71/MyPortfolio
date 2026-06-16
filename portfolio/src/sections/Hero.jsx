@@ -72,15 +72,7 @@ function Hero() {
         <h1 className='space-title tracking-[0.05em] text-white text-4xl md:text-8xl font-bold mb-4'>
           {showReal ? (
             <>
-              {fullTitle.split('').map((char, i) =>
-                char === 'C' && fullTitle.includes('Chandu') && i === fullTitle.indexOf('C') ? (
-                  <span key={i} className='space-accent'>
-                    {char}
-                  </span>
-                ) : (
-                  <span key={i}>{char}</span>
-                )
-              )}
+              Hi, I'm <span className='space-name'>Chandu</span>
             </>
           ) : (
             titleAnim.map((char, i) => <span key={i}>{char}</span>)

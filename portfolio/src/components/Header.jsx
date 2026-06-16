@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
-import { IconUserFilled, IconCode, IconRocket, IconBook, IconMail } from '@tabler/icons-react';
+import { IconUserFilled, IconCode, IconRocket, IconSchool, IconMail } from '@tabler/icons-react';
 
 const navItems = [
   { label: 'About', icon: <IconUserFilled size={20} />, id: 'about' },
   { label: 'Skills', icon: <IconCode size={20} stroke={2.5} />, id: 'skills' },
   { label: 'Projects', icon: <IconRocket size={20} />, id: 'projects' },
-  { label: 'Education', icon: <IconBook size={20} />, id: 'education' },
+  { label: 'Education', icon: <IconSchool size={20} />, id: 'education' },
   { label: 'Contact', icon: <IconMail size={20} />, id: 'contact' },
 ];
 
@@ -59,7 +59,7 @@ function Header() {
   return (
     <>
       <div onClick={() => scrollToSection('about')} className='fixed top-5 left-3 sm:left-5 z-50'>
-        <img className='sm:h-[60px] sm:w-[60px] h-[44px] w-[44px] rounded-full cursor-pointer' src='./logo-2.png' alt='logo' />
+        <img className='sm:h-[60px] sm:w-[60px] h-[44px] w-[44px] rounded-full cursor-pointer' src='./logo.png' alt='logo' />
       </div>
 
       <div className='fixed top-5 left-1/2 -translate-x-1/2 flex gap-1 px-3 py-2 sm:gap-2 bg-white/10 backdrop-blur-sm rounded-full z-50 ml-8'>
