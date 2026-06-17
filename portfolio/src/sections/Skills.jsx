@@ -48,16 +48,18 @@ function Skills() {
         {skillsData.map(group => (
           <div key={group.category}>
             <h3 className='text-xl md:text-2xl font-semibold text-space-accent mb-4 space-title'>{group.category}</h3>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+
+            <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4'>
               {group.skills.map(skill => (
                 <div
                   key={skill.name}
-                  className='flex items-center bg-[#181824] border border-white/10 rounded-lg px-4 py-2 shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg min-h-[56px]'
+                  className='flex items-center bg-[#181824] border border-white/10 rounded-lg px-2.5 py-2 sm:px-4 shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg min-h-[48px] sm:min-h-[56px]'
                 >
-                  <div className='flex items-center justify-center w-10 h-10 bg-[#232336] rounded-md mr-3 border border-white/10'>
-                    <img src={skill.logo} alt={skill.name + ' logo'} className='w-7 h-7 object-contain' />
+                  <div className='flex shrink-0 items-center justify-center w-8 h-8 sm:w-10 sm:h-10 bg-[#232336] rounded-md mr-2 sm:mr-3 border border-white/10'>
+                    <img src={skill.logo} alt={skill.name + ' logo'} className='w-5 h-5 sm:w-7 sm:h-7 object-contain' />
                   </div>
-                  <span className='text-white text-base font-medium ml-1'>{skill.name}</span>
+
+                  <span className='text-white text-sm sm:text-base font-medium truncate'>{skill.name}</span>
                 </div>
               ))}
             </div>
