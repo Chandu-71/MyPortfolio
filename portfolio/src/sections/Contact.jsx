@@ -60,7 +60,7 @@ function Contact() {
 
       {/* Left Card */}
       <div className='md:max-w-[40%] max-h-[50vh] flex flex-col items-center bg-gradient-to-b from-[#19376d] to-[#0b2447] rounded-2xl shadow-lg py-15 border border-[#3a7ca5] hover:-translate-y-2 transition duration-300 z-10'>
-        <img src='/profile.jpg' alt='Profile' className='w-28 h-28 rounded-full object-cover border-4 border-[#3a7ca5] shadow-lg mb-5' />
+        <img src='/profile.png' alt='Profile' className='w-28 h-28 rounded-full object-cover border-4 border-[#3a7ca5] shadow-lg mb-5' />
         <div className='w-full text-center mx-10 px-5'>
           <h2 className='text-2xl font-semibold text-white border-b-2 pb-10 border-[#3a7ca570]'>T CHANDU</h2>
         </div>

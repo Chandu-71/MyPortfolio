@@ -83,7 +83,7 @@ portfolio/
 │   ├── blackhole.mp4           # Contact section background
 │   ├── space_cloth.mp4         # Project card backgrounds
 │   ├── spacewalker.png         # Floating astronaut illustration
-│   ├── profile.jpg             # Contact section photo
+│   ├── profile.png             # Contact section photo
 │   └── *_logo.png              # Tech stack icons (15+)
 │
 ├── src/
