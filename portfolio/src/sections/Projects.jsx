@@ -57,7 +57,7 @@ function ProjectCard({ project }) {
   return (
     <div className='relative w-full rounded-2xl overflow-hidden shadow-xl bg-[#181824]/80 backdrop-blur-md flex flex-col md:flex-row mb-10 border border-white/10'>
       {/* Video Background */}
-      <video className='absolute inset-0 w-full h-full object-cover z-0' src={project.video} autoPlay loop muted playsInline />
+      <video className='absolute inset-0 w-full h-full object-cover z-0' src={project.video} autoPlay loop muted playsInline preload='auto' />
       <div className='absolute inset-0 bg-black/70 z-10' />
 
       {/* Content */}

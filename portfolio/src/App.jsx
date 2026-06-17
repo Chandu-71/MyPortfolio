@@ -21,9 +21,7 @@ function App() {
 
   return (
     <div>
-      {intro ? (
-        <LandingPage />
-      ) : (
+      <div className={intro ? 'opacity-0 pointer-events-none' : ''}>
         <div className='relative min-h-screen overflow-hidden text-white'>
           <div className='absolute inset-0 bg-black -z-30' />
           <StarsCanvas />
@@ -31,7 +29,7 @@ function App() {
           <Header />
 
           <section id='about' className='min-h-screen pt-[80px] flex items-center justify-center'>
-            <Hero />
+            <Hero startAnimation={!intro} />
           </section>
           <section id='skills' className='min-h-screen pt-[80px] flex items-center justify-center'>
             <Skills />
@@ -46,7 +44,9 @@ function App() {
             <Contact />
           </section>
         </div>
-      )}
+      </div>
+
+      {intro && <LandingPage />}
     </div>
   );
 }

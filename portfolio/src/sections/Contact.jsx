@@ -53,6 +53,7 @@ function Contact() {
         loop
         muted
         playsInline
+        preload='auto'
         className='absolute left-0 bottom-0 w-full object-cover z-0 opacity-30 pointer-events-none select-none m-0 p-0'
         style={{ zIndex: 0, margin: 0, padding: 0, left: 0, bottom: 0 }}
       />
