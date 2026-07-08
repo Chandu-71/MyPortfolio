@@ -10,12 +10,13 @@ const skillsData = [
   {
     category: 'Frameworks & Libraries',
     skills: [
-      { name: 'React', logo: '/react_logo.png' },
+      { name: 'React.js', logo: '/react_logo.png' },
       { name: 'Node.js', logo: '/nodejs_logo.png' },
       { name: 'Express.js', logo: '/expressjs_logo.png' },
       { name: 'Tailwind CSS', logo: '/tailwind_logo.png' },
       { name: 'Socket IO', logo: '/socketio_logo.png' },
-      { name: 'REST APIs', logo: '/restapi_logo.png' },
+      { name: 'Prisma ORM', logo: '/prismaorm_logo.png' },
+      { name: 'Mongoose', logo: '/mongoose_logo.png' },
     ],
   },
   {
@@ -28,11 +29,10 @@ const skillsData = [
   {
     category: 'Developer Tools',
     skills: [
-      { name: 'Prisma ORM', logo: '/prismaorm_logo.png' },
       { name: 'Git', logo: '/git_logo.png' },
       { name: 'GitHub', logo: '/github_logo.png' },
+      { name: 'Docker', logo: '/docker_logo.png' },
       { name: 'Postman', logo: '/postman_logo.png' },
-      { name: 'pgAdmin', logo: '/pgadmin_logo.png' },
       { name: 'VS Code', logo: '/vscode_logo.png' },
       { name: 'Vercel', logo: '/vercel_logo.png' },
       { name: 'Render', logo: '/render_logo.png' },
