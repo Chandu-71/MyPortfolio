@@ -23,6 +23,7 @@ const skillsData = [
     category: 'Databases',
     skills: [
       { name: 'PostgreSQL', logo: '/postgresql_logo.png' },
+      { name: 'MySQL', logo: '/mysql_logo.png' },
       { name: 'MongoDB', logo: '/mongodb_logo.png' },
     ],
   },
