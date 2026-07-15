@@ -68,7 +68,7 @@ function Hero({ startAnimation = false }) {
 
   return (
     <section className='relative min-h-screen -top-10 w-full text-white flex items-center justify-center overflow-hidden'>
-      <div className='absolute top-15 max-sm:w-[180vw] max-sm:h-[180vw] sm:top-6 sm:w-150 sm:h-150 rounded-full overflow-hidden opacity-80 pointer-events-none'>
+      <div className='absolute top-15 max-sm:w-[180vw] max-sm:h-[180vw] sm:top-6 sm:w-160 sm:h-160 rounded-full overflow-hidden opacity-80 pointer-events-none'>
         <video autoPlay loop muted playsInline preload='auto' className='w-full h-full object-cover'>
           <source src='/digital_planet.mp4' type='video/mp4' />
           Your browser does not support the video tag.
